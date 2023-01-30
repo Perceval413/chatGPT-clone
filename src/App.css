@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Poppins:ital,wght@0,400;0,500;1,400&family=Staatliches&display=swap');
+
+#root{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+body{
+  background-color: grey;
+}
+
+.app-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-main h1{
+  font-family: Poppins;
+}
+
+.app-input{
+  height: 30px;
+  margin: 20px;
+  width: 250px;
+  font-family: Poppins;
+}
+.result-image{
+  width: 350px;
+  margin-top: 20px;
+}
+
+.btn-search{
+  font-family: Poppins;
+}
+
